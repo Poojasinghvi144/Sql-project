@@ -4,15 +4,15 @@
 This project simulates the backend database of a dating application (inspired by Tinder) and dives into real-world SQL queries for user behavior analysis, match interactions, and subscription insights.
 The database models all core functionalities of a modern dating app—user profiles, swipes, matches, messages, and subscriptions—and is ideal for practicing complex SQL operations in a realistic scenario.
 
- Database Schema
+Database Schema
 The project consists of the following tables:
 
-Table	Description
-Users	User profiles with demographics and location
-Swipes	Tracks swipe interactions (Like/Dislike) between users
-Matches	Contains successful matches between two users
-Messages	Stores messages exchanged between matched users
-Subscriptions	Subscription details (Free, Plus, Gold, Platinum) for each user
+Table    	Description
+Users:  User profiles with demographics and location
+Swipes: 	Tracks swipe interactions (Like/Dislike) between users
+Matches:	contains successful matches between two users
+Messages: 	store messages exchanged between matched users
+Subscriptions: Subscription details (Free, Plus, Gold, Platinum) for each user
 
 SQL script includes schema creation, data population, and business queries.
 
@@ -21,44 +21,19 @@ Count total users and fetch user details
 
 1) List all “Like” interactions from the Swipes table.
 2) Identify users subscribed to the Gold plan
+3) Identify users subscribed to the Gold plan
+4) Retrieve the names of users who matched
+5) Count users under each subscription plan
+6) List users older than 25
+7)Find matches between users from the same city
+8)Calculate the percentage of paid (non-Free) users
+9)Classify swipe interactions as Positive or Negative using CASE
 
 
+Key Takeaways:
 
-Identify users subscribed to the Gold plan
-
-Retrieve names of users who matched
-
-Count users under each subscription plan
-
-List users older than 25
-
-Find matches between users from the same city
-
-Calculate the percentage of paid (non-Free) users
-
-Classify swipe interactions as Positive or Negative using CASE
-
-🛠 SQL Techniques Used
-INNER JOINs
-
-CASE statements
-
-Aggregation with COUNT, GROUP BY
-
-Subqueries
-
-Data filtering with WHERE and LIKE
-
-Alias naming for clean output
-
-Data Relationships via Foreign Keys
-
-🚀 Key Takeaways
 Learn to build and query a normalized, relational database
-
-Simulate real-world logic of a dating platform through SQL
-
+Simulate the real-world logic of a dating platform through SQL
 Understand user engagement and business insights through data
-
 Improve SQL confidence using real-time data analysis
 
